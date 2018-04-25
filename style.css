@@ -1,13 +1,169 @@
+/* general css */
+
+body {
+  margin: 0px;
+  color: #252525;
+  font-size: 14px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #252525;
+  font-weight: lighter;
+}
+
 h1 {
-	text-align: center;
-	color: pink;
-	font-size: 40px;
+  font-size: 30px;
 }
 
-body{
-	background-color: green;
+h2 {
+  font-size: 20px;
 }
 
-img{
-	margin: 10px;
+a {
+  text-decoration: none;
+  color: #01A1FD;
+}
+
+a:hover {
+  color: #e84089;
+}
+
+
+
+/* buttons css */
+
+.cta {
+  background-color: ##E78200;
+  color:white;
+}
+
+.cta:hover {
+  background-color: #e84089;
+}
+
+.button-pink {
+  background-color: #e84089;
+}
+
+.button-pink:hover {
+  background-color: white;
+  color: #e84089;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.avatar {
+/*  border-radius: 50%;
+  /*border: 2px solid grey;*/
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 30px;
+  color : white;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.items {
+  color: white;
+  font-family: arial black;
+  text-decoration: none;
+  margin: 30px;
+}
+
+
+.items:hover {
+  color: grey;
+}
+
+
+/* banner css */
+
+#banner{
+  text-align: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("images/banner_image.jpg");
+  background-size: cover;
+  padding: 0px 30px 150px 30px;;
+}
+
+#banner h1, #banner h2 {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 30px;
+}
+
+#banner h1 {
+  font-size: 50px;
+}
+
+#banner h2 {
+  font-size: 25px;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+
+/* card css*/
+
+.card{
+  margin: 20px 0;
+  font-weight: lighter;
+  padding: 30px;
+  background: #e4e6e6;
+  border-radius: 3px;
+}
+
+
+
+/* section css*/
+
+.section {
+  padding: 50px;
+}
+
+.section h1, .section h3 {
+  margin-bottom: 50px;
+}
+
+.section-blue {
+  background-color: #01A1FD;
+}
+
+
+
+/* footer css*/
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: grey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 40px;
+}
+
+#footer a:hover {
+  color: white;
 }
