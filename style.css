@@ -2,10 +2,13 @@
 
 body {
   margin: 0px;
-  color: #252525;
   font-size: 14px;
   font-family: Helvetica;
   text-align: center;
+  background-color: black;
+   font-family: 'Leto', sans-serif;
+  color: white;
+  background: black;
 }
 
 h1, h2, h3 {
@@ -15,11 +18,20 @@ h1, h2, h3 {
 
 h1 {
   font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 25px;
 }
+
+h3{
+	font-size: 20px;
+}
+
 
 a {
   text-decoration: none;
@@ -33,25 +45,6 @@ a:hover {
 
 
 /* buttons css */
-
-.cta {
-  background-color: ##E78200;
-  color:white;
-}
-
-.cta:hover {
-  background-color: #e84089;
-}
-
-.button-pink {
-  background-color: #e84089;
-}
-
-.button-pink:hover {
-  background-color: white;
-  color: #e84089;
-}
-
 
 
 .navbar {
@@ -122,15 +115,68 @@ a:hover {
 }
 
 
-
+#modeldispo{
+	margin-top: 20px;
+	color: #b5b3b3;
+}
 /* card css*/
 
+
 .card{
-  margin: 20px 0;
-  font-weight: lighter;
-  padding: 30px;
-  background: #e4e6e6;
-  border-radius: 3px;
+	height: 500px;
+	border:2px #e78200 solid;
+	text-align: center;
+  	margin: 20px 0;
+	font-size: 14px;
+	padding: 15px;
+	background: black;
+	background-size:cover;
+	background-position: center;
+	box-shadow: 5px;
+	padding: 30px;
+	font-weight: lighter;
+
+}
+
+.card_propos {
+	align-content: center;
+	height: auto !important ;
+}
+
+
+.card img{
+	border:2px #e78200 solid;
+	border-radius: 3px;
+	background-position: center;
+	text-align: center;
+	height: 150px;
+  	object-fit: cover;
+  	margin-bottom: 20px;
+	}
+
+.btn-success {
+
+  background-color: orange;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  margin:auto;
+  text-align: center;
+  border-radius: 10px;
+  font-family:'Leto', sans-serif;
+  font-size: 20px;
+  font-weight: medium;
+  color: white;
+  opacity: 0.8;
+  border:none;
+
+}
+
+.btn-success:hover{
+	text-decoration: none;
+	background-color: white;
+	color:orange;
+	opacity: 1;
 }
 
 
@@ -138,15 +184,20 @@ a:hover {
 /* section css*/
 
 .section {
-  padding: 50px;
+  padding: 100px;
 }
 
 .section h1, .section h3 {
   margin-bottom: 50px;
 }
 
-.section-blue {
-  background-color: #01A1FD;
+.section-white {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("images/banner_bottom.jpg");
+  background-size: cover;
+}
+
+#remise{
+	color: #FFFFFF;
 }
 
 
