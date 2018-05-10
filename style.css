@@ -218,3 +218,49 @@ a:hover {
 #footer a:hover {
   color: white;
 }
+
+
+footer {
+  margin-top: 20px;
+  border-top: solid orange 2px;
+}
+
+.social{
+  float: right;
+  list-style-type: none;
+  position: absolute;
+}
+
+.social li{
+  display: inline;
+}
+
+.legal{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.legal a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+.legal a:hover{
+  color: grey;
+}
+
+.picto-youtube {
+  height: 35px;
+  width : 35px;
+}
+
+.picto-facebook {
+  height: 35px;
+  width : 35px;
+}
+
+.picto-twitter {
+  height: 35px;
+  width : 35px;
+}
